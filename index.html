@@ -8,7 +8,9 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  </head>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+ </head>
   <body>
       
     <!-- Optional JavaScript -->
@@ -16,7 +18,8 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  
+    <script src="./javascript/script.js"></script>
+    <div id="All"
     <header>
 
         <h1>
@@ -25,14 +28,56 @@
 
     </header>
 
+    <div id="Instructions">
         <h2>
             Instructions
         </h2>
 
         <p>
-            The player will be given a random number from 18-120. There are four crystals below by clicking on one of these crystals it will add a specific amount of points to the players score. You win the game by collecting the correct number crystals equal to the original number given to you. Going any higher than the number will cause you to lose. Each crystal's number is randomized each game. Good Luck!
+            The player will be given a random number from 18-120.<br> There are four crystals below by clicking on one of these crystals it will add a specific amount of points to the players score.<br> You win the game by collecting the correct number crystals equal to the original number given to you. Going any higher than the number will cause you to lose.<br> Each crystal's number is randomized each game.<br> Good Luck!
         </p>
+    </div>
 
+    <div id="Goal-box">
+
+        <h3>
+            Goal
+        </h3>
+
+        <h3 id="goal"> 
+        </h3>
+
+    </div>
+
+    <div id="Crystal-box">
+
+        <button id="R"><img class ="Crystal" data-value="" src="images/Red Crystal.png" alt="Red Crystal"></button>
+        <button id="B"><img class ="Crystal" data-value="" src="images/Blue Crystal.png" alt="Blue Crystal"></button>
+        <button id="G"><img class ="Crystal" data-value="" src="images/Green Crystal.png" alt="Green Crystal"></button>
+        <button id="Y"><img class ="Crystal" data-value="" src="images/Yellow Crystal.png" alt="Yellow Crystal"></button>
+
+    </div>
+
+    <div id="Score-box">
+
+        <h3>
+            Score
+        </h3>
+        <h3 id="score"> 
+        </h3>
+    </div>
+    <div id="win/loss">
+        
+        <h5>Wins</h5>
+        <h5 id="wins"> 
+        </h5>
+
+        <h5>Losses</h5>
+        <h5 id="losses"> 
+        </h5>
+        
+    
+    </div>
 
 </body>
 </html>

@@ -1,0 +1,51 @@
+body{
+
+margin: 50px;
+text-align: center;
+background-color: #663005;
+color: white;
+
+}
+
+header{
+
+background-color: darkslategray;
+
+}
+
+div#Instructions{
+
+background-color: darkslategray;
+
+}
+
+div#Goal-box{
+
+background-color: darkslategray;
+    
+}
+
+div#Crystal-box{
+
+background-color: darkslategray;
+        
+}
+
+div#Score-box{
+
+background-color: darkslategray;
+
+}
+
+div#All{
+
+background-color: darkslategray;
+  
+}
+
+img.Crystal{
+
+height: 100px;
+width: 100px;
+
+}
