@@ -39,27 +39,31 @@ $(document).ready(function(){
         var value = $(this).data("value");
         score = score + value;
         $("#score").text(score);
+        crystalCheck();
     });
 
     $("#B").click(function() {
         var value = $(this).data("value");
         score = score + value;
         $("#score").text(score);
+        crystalCheck();
     });
 
     $("#G").click(function() {
         var value = $(this).data("value");
         score = score + value;
         $("#score").text(score);
+        crystalCheck();
     });
 
     $("#Y").click(function() {
         var value = $(this).data("value");
         score = score + value;
         $("#score").text(score);
+        crystalCheck();
     });
 
-    $(".Crystal").click(function(){
+    function crystalCheck(){
 
         if(score === goal){
 
@@ -71,10 +75,8 @@ $(document).ready(function(){
             goalFunction();
             crystalRandomFunction();
 
-
-
         }
-        
+
         if(score >= goal){
 
             losses++;
@@ -86,8 +88,9 @@ $(document).ready(function(){
             crystalRandomFunction();
         }
 
+    }
 
-    });
+
 
     goalFunction();
     crystalRandomFunction();
